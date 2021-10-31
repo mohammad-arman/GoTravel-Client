@@ -1,0 +1,26 @@
+.about-title{
+    color: #363636;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.about-btn{
+    padding: 15px 40px;
+    background-color: #3fd0d4;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.2em;
+    margin-top: 20px;
+    transition: all .5s;
+}
+.about-btn:hover{
+    color: #fff;
+    background-color: darkcyan;
+}
+
+/* responsive */
+@media only screen and (max-width: 780px) {
+    .about-thumb{
+        margin-top: 50px;
+    }
+}

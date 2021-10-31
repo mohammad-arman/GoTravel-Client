@@ -1,0 +1,25 @@
+.banner{
+    background: url('../../../images/banner.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.banner-text{
+    padding: 200px 0;
+}
+.banner-text h1{
+    font-size: 5em;
+    font-weight: 700;
+}
+.banner-text p{
+    font-size: 1.5em;
+}
+/* responsive */
+@media only screen and (max-width: 780px) {
+    .banner-text h1{
+        font-size: 3em;
+    }
+    .banner-text{
+        padding: 130px 0;
+    }
+}

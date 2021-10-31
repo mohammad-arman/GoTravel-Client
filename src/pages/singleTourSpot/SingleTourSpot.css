@@ -1,0 +1,8 @@
+.booking-form form{
+   display: flex;
+   flex-direction: column;
+}
+.booking-form form input{
+    margin-bottom: 10px;
+    padding: 10px;
+}

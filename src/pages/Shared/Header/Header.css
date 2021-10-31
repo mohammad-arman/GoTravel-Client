@@ -1,0 +1,11 @@
+#custom-nav-link{
+    color: rgb(20, 152, 192);
+    font-weight: 500;
+    margin-top: 5px;
+}
+.user-name{
+    color: rgb(192, 54, 20);
+    font-weight: 500;
+    margin-top: 13px;
+    display: inline-block;
+}

@@ -1,0 +1,27 @@
+.footer-part{
+    background: url('../../../images/footer-bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+}
+.footer-text{
+    position: absolute;
+    bottom: 0;
+    right: 50px;
+    left: 50px;
+}
+.compnay-part a{
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.contact-part a{
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+.bottom-footer{
+    background-color: #464646;
+}
