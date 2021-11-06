@@ -5,7 +5,7 @@ import './TouristSpots.css'
 const TouristSpots = () => {
     const [touristSpots, setTouristSpots] = useState([]);
     useEffect(()=> {
-        fetch('http://localhost:5000/touristSpots')
+        fetch('https://ghostly-coffin-01881.herokuapp.com/touristSpots')
         .then(res=>res.json())
         .then(data=> setTouristSpots(data))
     }, [])

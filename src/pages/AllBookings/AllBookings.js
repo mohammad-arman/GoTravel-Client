@@ -12,7 +12,7 @@ const AllBookings = () => {
     const handleDelete = (id) => {
         const procced = window.confirm('Are you sure? you want to delete booking.')
      if(procced){
-        fetch(`http://localhost:5000/deletebooking/${id}`,{
+        fetch(`https://ghostly-coffin-01881.herokuapp.com/deletebooking/${id}`,{
             method: "DELETE"
         })
         .then(res=>res.json())

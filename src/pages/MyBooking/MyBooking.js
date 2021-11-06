@@ -5,7 +5,7 @@ const MyBooking = () => {
     const {user} = useAuth();
     const [myBooking, setMyBooking] = useState([]);
     useEffect(()=>{
-        fetch(`http://localhost:5000/mybooking/${user.email}`)
+        fetch(`https://ghostly-coffin-01881.herokuapp.com/mybooking/${user.email}`)
         .then(res=>res.json())
         .then(data=> setMyBooking(data))
     }, [myBooking]);
